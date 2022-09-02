@@ -10,7 +10,14 @@
 &nbsp;  A interface do sistema será apresentada no terminal do S.O. usando estatísticas e probabilidade, previamente estabelecidas, a fim de calcular o possível vencedor dos confrontos e partir para a próxima fase do jogo até chegar ao final da Copa Mundial. As probabilidades serão obtidas a partir dos confrontos históricos das seleções, caso não tenham se enfrentado anteriormente, iremos analisar o ranking da FIFA das seleções como um todo, adicionando as informações manualmente no Banco de dados local. Além disso, iremos criar um sistema básico de apostas para o usuário escolher em quais seleções irá apostar antes da simulação dos jogos da copa serem realizados.
 
 # COMO EXECUTAR ❕
-1- ter o SWI do prolog no terminal <br>
-2- abrir o caminho do diretório no terminal <br>
-3- rodar comando: swipl -q -f .\LaeebBot.pl <br>
-4- depois: main. <br>
+<h3>Haskell: </h3>
+1- ter o ghci e ghc no terminal <br>
+2- abrir pasta app no terminal <br>
+3- rodar comando: ghc -o main Main.hs <br>
+4- depois: ./main <br>
+
+<h3>Prolog: </h3>
+1- Ter o SWI-Prolog instalado no terminal <br>
+2- Abrir a pasta prolog no terminal <br>
+3- Rodar o comando: swipl -q -f .\LaeebBot.pl <br>
+4- depois: main.
